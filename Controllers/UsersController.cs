@@ -18,7 +18,7 @@ namespace UsersAPI.Controllers
     {
       
         readonly UserDBContext dBContext;
-        readonly SHA256 shaEncryptor = SHA256.Create();
+        readonly MD5 md5Encryptor = MD5.Create();
         //private object dataRepository;
 
         
